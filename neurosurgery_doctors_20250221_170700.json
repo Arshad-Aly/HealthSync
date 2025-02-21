@@ -1,0 +1,549 @@
+{
+  "metadata": {
+    "specialty": "neurosurgery",
+    "total_doctors": 30,
+    "scrape_timestamp": "2025-02-21T17:07:00.426099"
+  },
+  "doctors": [
+    {
+      "id": "dr-bharat-subramanya-fed2bb2f-24d8-4664-bc0e-0e70eda89c8e?source=Listing_Page",
+      "name": "Dr. Bharat Subramanya",
+      "specialty": "Neurosurgeon",
+      "experience": "8 Years",
+      "qualifications": "MBBS, DrNB Neurosurg (D6Y,NBEMS), Fellowship Park Clinic Kolkata",
+      "city": "Bengaluru",
+      "clinic": "Apollo Clinic, JP nagar, Bengaluru",
+      "consultations": {
+        "digital": {
+          "price": "₹1050",
+          "availability": "Available in 3 minutes"
+        },
+        "clinic": {
+          "price": "₹1050",
+          "availability": "Available in 3 days"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-bharat-subramanya-fed2bb2f-24d8-4664-bc0e-0e70eda89c8e?source=Listing_Page"
+    },
+    {
+      "id": "dr-aditendraditya-singh-bhati-ae892c6c-38b1-42a7-a4c4-629701ccd166?source=Listing_Page",
+      "name": "Dr. Aditendraditya Singh Bhati",
+      "specialty": "Neurosurgeon",
+      "experience": "18 Years",
+      "qualifications": "MBBS(2004), DNB Neurosurgery(2014); MNAMS; Fellow Neuroendoscopy",
+      "city": "Delhi",
+      "clinic": "Apollo Hospitals Indraprastha, Delhi",
+      "rating": "86%",
+      "recommendations": "50+ recommendations",
+      "consultations": {
+        "digital": {
+          "price": "₹1000",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-aditendraditya-singh-bhati-ae892c6c-38b1-42a7-a4c4-629701ccd166?source=Listing_Page"
+    },
+    {
+      "id": "dr-balaji-srinivas-s-6c70b9e4-7c45-499d-a46a-a0658a871e98?source=Listing_Page",
+      "name": "Dr. Balaji Srinivas S",
+      "specialty": "Neurosurgeon",
+      "experience": "13 Years",
+      "qualifications": "M.B.BBS, MS GENERAL SURGERY, M.ch Neurosurgery",
+      "city": "Bengaluru",
+      "clinic": "Apollo Clinic, Electronic City, Bengaluru",
+      "consultations": {
+        "digital": {
+          "price": "₹850",
+          "availability": "Available in 3 days"
+        },
+        "clinic": {
+          "price": "₹850",
+          "availability": "Available in 3 minutes"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-balaji-srinivas-s-6c70b9e4-7c45-499d-a46a-a0658a871e98?source=Listing_Page"
+    },
+    {
+      "id": "dr-gopal-achari-cf611a12-32c5-4018-8f54-a617a211159f?source=Listing_Page",
+      "name": "Dr. Gopal Achari",
+      "specialty": "Neurosurgeon",
+      "experience": "20 Years",
+      "qualifications": "MBBS, MS (GEN SUR), MCH (NEURO SUR)",
+      "city": "Kolkata",
+      "clinic": "Apollo Multispeciality Hospitals , Kolkata, Kolkata",
+      "consultations": {
+        "digital": null,
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-gopal-achari-cf611a12-32c5-4018-8f54-a617a211159f?source=Listing_Page"
+    },
+    {
+      "id": "dr-anand-kumar-mahapatra-a58e7736-ce7c-4e84-96f4-179c46a4a295?source=Listing_Page",
+      "name": "Dr. Anand Kumar Mahapatra",
+      "specialty": "Neurosurgeon",
+      "experience": "8 Years",
+      "qualifications": "MBBS, MS, MCh",
+      "city": "Chinagadila",
+      "clinic": "Apollo Hospitals Health City Unit, Chinagadila",
+      "rating": "96%",
+      "recommendations": "50+ recommendations",
+      "consultations": {
+        "digital": {
+          "price": "₹1000",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-anand-kumar-mahapatra-a58e7736-ce7c-4e84-96f4-179c46a4a295?source=Listing_Page"
+    },
+    {
+      "id": "dr-harshavardhan-k-e84821f5-76dd-4a68-92ce-86011e43758e?source=Listing_Page",
+      "name": "Dr. Harshavardhan K",
+      "specialty": "Neurosurgeon",
+      "experience": "9 Years",
+      "qualifications": "MS, MCh",
+      "city": "Chinagadila",
+      "clinic": "Apollo Hospitals Health City Unit, Chinagadila",
+      "consultations": {
+        "digital": {
+          "price": "₹500",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-harshavardhan-k-e84821f5-76dd-4a68-92ce-86011e43758e?source=Listing_Page"
+    },
+    {
+      "id": "dr-gaurav-tyagi-1a258739-30f5-47f5-950f-44e2ceb87014?source=Listing_Page",
+      "name": "Dr Gaurav Tyagi",
+      "specialty": "Neurosurgeon",
+      "experience": "8 Years",
+      "qualifications": "MBBS, MS, MCh (NIMHANS) Clinical Fellowship in Skull base Surgery",
+      "city": "Delhi",
+      "clinic": "Apollo Hospitals Indraprastha, Delhi",
+      "consultations": {
+        "digital": {
+          "price": "₹1500",
+          "availability": "Available tomorrow at 02:30 AM"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-gaurav-tyagi-1a258739-30f5-47f5-950f-44e2ceb87014?source=Listing_Page"
+    },
+    {
+      "id": "dr-prof-dr-anil-pande-18a5c69a-eb23-4c8c-8c30-45a023cda4b1?source=Listing_Page",
+      "name": "Prof. Dr. Anil Pande",
+      "specialty": "Neurosurgeon",
+      "experience": "25 Years",
+      "qualifications": "MBBS, DNB (NeuroSurg.), MNAMS",
+      "city": "Chennai",
+      "clinic": "Apollo Speciality Hospitals OMR, Chennai",
+      "rating": "98%",
+      "recommendations": "50+ recommendations",
+      "consultations": {
+        "digital": {
+          "price": "₹2000",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-prof-dr-anil-pande-18a5c69a-eb23-4c8c-8c30-45a023cda4b1?source=Listing_Page"
+    },
+    {
+      "id": "dr-dhanunjaya-rao-ginjupally-43c9d6b5-3359-48da-af68-84dd80943e6a?source=Listing_Page",
+      "name": "Dr. Dhanunjaya Rao Ginjupally",
+      "specialty": "Neurosurgeon",
+      "experience": "11 Years",
+      "qualifications": "M.B.,B.S., M.S.(Gen. Surg), M.Ch.(Neurosurgery) IFAANS Fellow, Movement disorders and Functional Neurosurgery/Neuro-oncology.  University of Kentucky college of Medicine, USA.",
+      "city": "Hyderabad",
+      "clinic": "Apollo Hospitals Jubilee Hills, Hyderabad",
+      "consultations": {
+        "digital": {
+          "price": "₹800",
+          "availability": "Available in 8 minutes"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-dhanunjaya-rao-ginjupally-43c9d6b5-3359-48da-af68-84dd80943e6a?source=Listing_Page"
+    },
+    {
+      "id": "dr-sunit-mediratta-5c7d9d85-807f-4980-a53f-211a4c0baa81?source=Listing_Page",
+      "name": "Dr. Sunit Mediratta",
+      "specialty": "Neurosurgeon",
+      "experience": "20 Years",
+      "qualifications": "MBBS, MS, MCh, DNB, MNAMS",
+      "city": "Delhi",
+      "clinic": "Apollo Hospitals Indraprastha, Delhi",
+      "consultations": {
+        "digital": {
+          "price": "₹2000",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-sunit-mediratta-5c7d9d85-807f-4980-a53f-211a4c0baa81?source=Listing_Page"
+    },
+    {
+      "id": "dr-deepak-a-n-98b50a05-eb66-4dcd-9a59-a2d4af28c983?source=Listing_Page",
+      "name": "Dr. Deepak A N",
+      "specialty": "Neurosurgeon",
+      "experience": "10 Years",
+      "qualifications": "MBBS, MS (General Surgery, M.Ch (Neurosurgery)",
+      "city": "Bengaluru",
+      "clinic": "Apollo Medical Center, Marathahalli, Bengaluru",
+      "consultations": {
+        "digital": null,
+        "clinic": {
+          "price": "₹1000",
+          "availability": "Available in 8 minutes"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-deepak-a-n-98b50a05-eb66-4dcd-9a59-a2d4af28c983?source=Listing_Page"
+    },
+    {
+      "id": "dr-gowtham-raman-98c2bcd7-ee29-4815-aab2-dbd076e6b190?source=Listing_Page",
+      "name": "Dr Gowtham Raman",
+      "specialty": "Neurosurgeon",
+      "experience": "21 Years",
+      "qualifications": "MBBS, DNB Neurosurgery",
+      "city": "Bengaluru",
+      "clinic": "Apollo One Electronic City, Bengaluru",
+      "consultations": {
+        "digital": null,
+        "clinic": {
+          "price": "₹850",
+          "availability": "Available in 8 minutes"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-gowtham-raman-98c2bcd7-ee29-4815-aab2-dbd076e6b190?source=Listing_Page"
+    },
+    {
+      "id": "dr-sanatan-satapathy-20eb06f2-2cc7-47e8-928d-5c94b0af06f5?source=Listing_Page",
+      "name": "Dr. Sanatan Satapathy",
+      "specialty": "Neurosurgeon",
+      "experience": "10 Years",
+      "qualifications": "MBBS , MS (General surgery) , MCH (Neurosurgery)",
+      "city": "Bhubaneswar",
+      "clinic": "Dr Sanatan Satapathy, Bhubaneswar",
+      "consultations": {
+        "digital": null,
+        "clinic": {
+          "price": "₹500",
+          "availability": "Available in 13 minutes"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-sanatan-satapathy-20eb06f2-2cc7-47e8-928d-5c94b0af06f5?source=Listing_Page"
+    },
+    {
+      "id": "dr-debnath-dwaipayan-8a8f962c-01d8-4434-8781-016188ae69ed?source=Listing_Page",
+      "name": "Dr Debnath Dwaipayan",
+      "specialty": "Neurosurgeon",
+      "experience": "8 Years",
+      "qualifications": "MBBS, MS(Gen. Surgery), DrNB (Neurosurgery)",
+      "city": "Delhi",
+      "clinic": "Apollo Hospitals Indraprastha, Delhi",
+      "consultations": {
+        "digital": {
+          "price": "₹1000",
+          "availability": "Available in 23 minutes"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-debnath-dwaipayan-8a8f962c-01d8-4434-8781-016188ae69ed?source=Listing_Page"
+    },
+    {
+      "id": "dr-rahul-srinivasan-75923c29-ecf7-4cc1-90f5-5d8c9d821281?source=Listing_Page",
+      "name": "Dr. Rahul Srinivasan",
+      "specialty": "Neurosurgeon",
+      "experience": "3 Years",
+      "qualifications": "MBBS, DrNB(Neurosurgery), Post Doctor Fellow (CMC Vellore)",
+      "city": "Chennai",
+      "clinic": "Apollo First Med Hospitals P H Road, Chennai",
+      "consultations": {
+        "digital": {
+          "price": "₹1000",
+          "availability": "Available in 23 minutes"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-rahul-srinivasan-75923c29-ecf7-4cc1-90f5-5d8c9d821281?source=Listing_Page"
+    },
+    {
+      "id": "dr-bharat-subramanya-16cbce91-5813-4d67-92ba-174b426cb666?source=Listing_Page",
+      "name": "Dr. Bharat Subramanya",
+      "specialty": "Neurosurgeon",
+      "experience": "8 Years",
+      "qualifications": "MBBS, DrNB Neurosurgery (D6Y,NBEMS), Fellowship Park clinic Kolkata",
+      "city": "Bengaluru",
+      "clinic": "Apollo Clinic, Electronic City, Bengaluru",
+      "consultations": {
+        "digital": {
+          "price": "₹1050",
+          "availability": "Available in 23 minutes"
+        },
+        "clinic": {
+          "price": "₹1050",
+          "availability": "Available in 2 days"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-bharat-subramanya-16cbce91-5813-4d67-92ba-174b426cb666?source=Listing_Page"
+    },
+    {
+      "id": "dr-kodali-sandhya-e9b93492-805e-4601-b9dc-dd7e01336573?source=Listing_Page",
+      "name": "Dr Kodali Sandhya",
+      "specialty": "Neurosurgeon",
+      "experience": "6 Years",
+      "qualifications": "MBBS,MS (General Surgery),MCh(Neurosurgery),MBBS , MS General Surgery , ACNS fellow in Cerebrovascular &  Minimal Invasive Neurosurgeon",
+      "city": "Hyderabad",
+      "clinic": "Medicover hospital, Hyderabad",
+      "consultations": {
+        "digital": {
+          "price": "₹625",
+          "availability": "Available in 23 minutes"
+        },
+        "clinic": {
+          "price": "₹500",
+          "availability": "Available tomorrow at 03:30 AM"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-kodali-sandhya-e9b93492-805e-4601-b9dc-dd7e01336573?source=Listing_Page"
+    },
+    {
+      "id": "dr-abinash-dutta-5288524f-e838-4057-8f9c-c2e547329cfb?source=Listing_Page",
+      "name": "Dr. Abinash Dutta",
+      "specialty": "Neurosurgeon",
+      "experience": "10 Years",
+      "qualifications": "MBBS, MS - General Surgery, MCh - Neuro Surgery",
+      "city": "Bengaluru",
+      "clinic": "NeuroCare Clinic, Bengaluru",
+      "rating": "100%",
+      "recommendations": "50+ recommendations",
+      "consultations": {
+        "digital": {
+          "price": "₹1500",
+          "availability": "Available in 23 minutes"
+        },
+        "clinic": {
+          "price": "₹1200",
+          "availability": "Available in 33 minutes"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-abinash-dutta-5288524f-e838-4057-8f9c-c2e547329cfb?source=Listing_Page"
+    },
+    {
+      "id": "dr-ravikiran-vutha-2fc568f8-b8f2-492e-bd10-a39496011c46?source=Listing_Page",
+      "name": "Dr Ravikiran Vutha",
+      "specialty": "Neurosurgeon",
+      "experience": "6 Years",
+      "qualifications": "MBBS, MS ( General Surgery), MCH (Neurosurgery)",
+      "city": "Mumbai",
+      "clinic": "Apollo Hospitals CBD Belapur, Mumbai",
+      "consultations": {
+        "digital": {
+          "price": "₹2000",
+          "availability": "Available in 23 minutes"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-ravikiran-vutha-2fc568f8-b8f2-492e-bd10-a39496011c46?source=Listing_Page"
+    },
+    {
+      "id": "dr-abhay-sikaria-710873bf-8b1d-405f-9fef-534343e5897c?source=Listing_Page",
+      "name": "Dr Abhay Sikaria",
+      "specialty": "Neurosurgeon",
+      "experience": "7 Years",
+      "qualifications": "MBBS, M.S (GENERAL SURGERY), MCH (NEUROSURGERY)",
+      "city": "Bengaluru",
+      "clinic": "Apollo Clinic, Koramangala, Bengaluru",
+      "consultations": {
+        "digital": {
+          "price": "₹850",
+          "availability": "Available in 23 minutes"
+        },
+        "clinic": {
+          "price": "₹850",
+          "availability": "Available tomorrow at 10:30 AM"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-abhay-sikaria-710873bf-8b1d-405f-9fef-534343e5897c?source=Listing_Page"
+    },
+    {
+      "id": "dr-ramesh-r-a12a411c-4d7c-44bb-9111-cabe49ea953f?source=Listing_Page",
+      "name": "Dr. Ramesh R",
+      "specialty": "Neurosurgeon",
+      "experience": "10 Years",
+      "qualifications": "MBBS, DNB",
+      "city": "Bengaluru",
+      "clinic": "Relife Hospital, Bengaluru",
+      "consultations": {
+        "digital": null,
+        "clinic": {
+          "price": "₹400",
+          "availability": "Available in 32 minutes"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-ramesh-r-a12a411c-4d7c-44bb-9111-cabe49ea953f?source=Listing_Page"
+    },
+    {
+      "id": "dr-k-kartik-revanappa-573f625d-97d2-46b2-9efc-8fba442733e3?source=Listing_Page",
+      "name": "Dr. K Kartik Revanappa",
+      "specialty": "Neurosurgeon",
+      "experience": "24 Years",
+      "qualifications": "MBBS, MS - Orthopaedics, MCh - NeuroSurgery",
+      "city": "Bengaluru",
+      "clinic": "Kartik's NeuroSpine Clinic, Bengaluru",
+      "consultations": {
+        "digital": null,
+        "clinic": {
+          "price": "₹1000",
+          "availability": "Available in 32 minutes"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-k-kartik-revanappa-573f625d-97d2-46b2-9efc-8fba442733e3?source=Listing_Page"
+    },
+    {
+      "id": "dr-j-kartik-eshwar-01738ee3-5980-4f0e-9a54-d4efffa11f42?source=Listing_Page",
+      "name": "Dr J Kartik Eshwar",
+      "specialty": "Neurosurgeon",
+      "experience": "8 Years",
+      "qualifications": "MBBS, MS General Surgery, M.Ch Neurosurgery",
+      "city": "Tanuku",
+      "clinic": "Radha Krishna Neuro Multispeciality Hospital, Tanuku",
+      "consultations": {
+        "digital": {
+          "price": "₹700",
+          "availability": "Available in 32 minutes"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-j-kartik-eshwar-01738ee3-5980-4f0e-9a54-d4efffa11f42?source=Listing_Page"
+    },
+    {
+      "id": "dr-uddalak-chakraborty-b31803fc-4d4b-44fe-937e-8169a3b8afb7?source=Listing_Page",
+      "name": "Dr. Uddalak Chakraborty",
+      "specialty": "Neurologist",
+      "experience": "8 Years",
+      "qualifications": "MBBS,MD(GENL. MED.),DM(NEUROLOGY)",
+      "city": "Kolkata",
+      "clinic": "VDC Clinic, Kolkata",
+      "consultations": {
+        "digital": {
+          "price": "₹1500",
+          "availability": "Available in 52 minutes"
+        },
+        "clinic": {
+          "price": "₹1000",
+          "availability": "Available in 3 days"
+        }
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-uddalak-chakraborty-b31803fc-4d4b-44fe-937e-8169a3b8afb7?source=Listing_Page"
+    },
+    {
+      "id": "dr-shameem-ahmed-8986fe95-b77c-480a-b21d-484cd74c0848?source=Listing_Page",
+      "name": "Dr. Shameem Ahmed",
+      "specialty": "Neurosurgeon",
+      "experience": "24 Years",
+      "qualifications": "MCH (Neuro Surgery), MS(General Surgery), Brain and Spine Surgeon, MBBS",
+      "city": "Guwahati",
+      "clinic": "Apollo Hospitals G S Road, Guwahati",
+      "rating": "94%",
+      "recommendations": "50+ recommendations",
+      "consultations": {
+        "digital": {
+          "price": "₹1000",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-shameem-ahmed-8986fe95-b77c-480a-b21d-484cd74c0848?source=Listing_Page"
+    },
+    {
+      "id": "dr-binod-kumar-singhania-46aa5f70-d692-4ab3-b98f-850b2f537278?source=Listing_Page",
+      "name": "Dr. Binod Kumar Singhania",
+      "specialty": "Neurosurgeon",
+      "experience": "35 Years",
+      "qualifications": "MBBS , MS (Gen.Surg.), M.Ch (Neurosurg), Fellow Spine Surg.  APPOINTMENT WILL BE ON BASIS OF FIRST COME FIRST SERVE.",
+      "city": "Kolkata",
+      "clinic": "Apollo Multispeciality Hospitals , Kolkata, Kolkata",
+      "rating": "93%",
+      "recommendations": "300+ recommendations",
+      "consultations": {
+        "digital": {
+          "price": "₹2000",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-binod-kumar-singhania-46aa5f70-d692-4ab3-b98f-850b2f537278?source=Listing_Page"
+    },
+    {
+      "id": "dr-amit-kapoor-e830cf57-3ac0-4f78-bb72-3f62beb208ed?source=Listing_Page",
+      "name": "Dr. Amit Kapoor",
+      "specialty": "Neurosurgeon",
+      "experience": "18 Years",
+      "qualifications": "D.N.B NeuroSurg.",
+      "city": "Delhi",
+      "clinic": "Apollo Hospitals Indraprastha, Delhi",
+      "consultations": {
+        "digital": {
+          "price": "₹1500",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-amit-kapoor-e830cf57-3ac0-4f78-bb72-3f62beb208ed?source=Listing_Page"
+    },
+    {
+      "id": "dr-amit-kapoor-271f1b85-dd51-468b-9271-20cb5d387da2?source=Listing_Page",
+      "name": "Dr. Amit Kapoor",
+      "specialty": "Neurosurgeon",
+      "experience": "18 Years",
+      "qualifications": "D.N.B NeuroSurg.",
+      "city": "Noida",
+      "clinic": "Apollo Hospitals Sector 26, Noida",
+      "consultations": {
+        "digital": {
+          "price": "₹1500",
+          "availability": "Available at 12:50 PM"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-amit-kapoor-271f1b85-dd51-468b-9271-20cb5d387da2?source=Listing_Page"
+    },
+    {
+      "id": "dr-subrat-kumar-soren-320ac0df-8d60-468c-9a1b-4d1c31603155?source=Listing_Page",
+      "name": "Dr. Subrat Kumar Soren",
+      "specialty": "Neurosurgeon",
+      "experience": "2 Years",
+      "qualifications": "MCH NEUROSURGERY",
+      "city": "Karimnagar",
+      "clinic": "Apollo Reach Hospitals Railway Station Road, Karimnagar",
+      "consultations": {
+        "digital": {
+          "price": "₹1000",
+          "availability": "Not specified"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-subrat-kumar-soren-320ac0df-8d60-468c-9a1b-4d1c31603155?source=Listing_Page"
+    },
+    {
+      "id": "dr-raj-kumar-pannem-9225cffd-afd4-453b-ad59-5998dd40d55d?source=Listing_Page",
+      "name": "Dr. Raj Kumar Pannem",
+      "specialty": "Neurosurgeon",
+      "experience": "4 Years",
+      "qualifications": "MBBS, MS, MCh",
+      "city": "Bengaluru",
+      "clinic": "Apollo Clinic, Koramangala, Bengaluru",
+      "consultations": {
+        "digital": {
+          "price": "₹850",
+          "availability": "Available at 01:30 PM"
+        },
+        "clinic": null
+      },
+      "profile_url": "https://www.apollo247.com/doctors/dr-raj-kumar-pannem-9225cffd-afd4-453b-ad59-5998dd40d55d?source=Listing_Page"
+    }
+  ]
+}

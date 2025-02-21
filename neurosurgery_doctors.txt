@@ -1,0 +1,474 @@
+
+Doctor #1
+==================================================
+Name: Dr. Bharat Subramanya
+Specialty: Neurosurgeon
+Experience: 8 Years
+Qualifications: MBBS, DrNB Neurosurg (D6Y,NBEMS), Fellowship Park Clinic Kolkata
+City: Bengaluru
+Clinic: Apollo Clinic, JP nagar, Bengaluru
+
+Digital Consultation:
+  Price: ₹1050
+  Availability: Available in 5 minutes
+
+Clinic Visit:
+  Price: ₹1050
+  Availability: Available in 3 days
+Profile URL: https://www.apollo247.com/doctors/dr-bharat-subramanya-fed2bb2f-24d8-4664-bc0e-0e70eda89c8e?source=Listing_Page
+
+
+Doctor #2
+==================================================
+Name: Dr. Aditendraditya Singh Bhati
+Specialty: Neurosurgeon
+Experience: 18 Years
+Qualifications: MBBS(2004), DNB Neurosurgery(2014); MNAMS; Fellow Neuroendoscopy
+City: Delhi
+Clinic: Apollo Hospitals Indraprastha, Delhi
+
+Digital Consultation:
+  Price: ₹1000
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-aditendraditya-singh-bhati-ae892c6c-38b1-42a7-a4c4-629701ccd166?source=Listing_Page
+
+
+Doctor #3
+==================================================
+Name: Dr Gowtham Raman
+Specialty: Neurosurgeon
+Experience: 21 Years
+Qualifications: MBBS, DNB Neurosurgery
+City: Bengaluru
+Clinic: Apollo One Electronic City, Bengaluru
+
+Clinic Visit:
+  Price: ₹850
+  Availability: Available in 5 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-gowtham-raman-98c2bcd7-ee29-4815-aab2-dbd076e6b190?source=Listing_Page
+
+
+Doctor #4
+==================================================
+Name: Dr. Balaji Srinivas S
+Specialty: Neurosurgeon
+Experience: 13 Years
+Qualifications: M.B.BBS, MS GENERAL SURGERY, M.ch Neurosurgery
+City: Bengaluru
+Clinic: Apollo Clinic, Electronic City, Bengaluru
+
+Digital Consultation:
+  Price: ₹850
+  Availability: Available in 3 days
+
+Clinic Visit:
+  Price: ₹850
+  Availability: Available in 5 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-balaji-srinivas-s-6c70b9e4-7c45-499d-a46a-a0658a871e98?source=Listing_Page
+
+
+Doctor #5
+==================================================
+Name: Dr. Gopal Achari
+Specialty: Neurosurgeon
+Experience: 20 Years
+Qualifications: MBBS, MS (GEN SUR), MCH (NEURO SUR)
+City: Kolkata
+Clinic: Apollo Multispeciality Hospitals , Kolkata, Kolkata
+Profile URL: https://www.apollo247.com/doctors/dr-gopal-achari-cf611a12-32c5-4018-8f54-a617a211159f?source=Listing_Page
+
+
+Doctor #6
+==================================================
+Name: Dr. Anand Kumar Mahapatra
+Specialty: Neurosurgeon
+Experience: 8 Years
+Qualifications: MBBS, MS, MCh
+City: Chinagadila
+Clinic: Apollo Hospitals Health City Unit, Chinagadila
+
+Digital Consultation:
+  Price: ₹1000
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-anand-kumar-mahapatra-a58e7736-ce7c-4e84-96f4-179c46a4a295?source=Listing_Page
+
+
+Doctor #7
+==================================================
+Name: Dr. Harshavardhan K
+Specialty: Neurosurgeon
+Experience: 9 Years
+Qualifications: MS, MCh
+City: Chinagadila
+Clinic: Apollo Hospitals Health City Unit, Chinagadila
+
+Digital Consultation:
+  Price: ₹500
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-harshavardhan-k-e84821f5-76dd-4a68-92ce-86011e43758e?source=Listing_Page
+
+
+Doctor #8
+==================================================
+Name: Dr Gaurav Tyagi
+Specialty: Neurosurgeon
+Experience: 8 Years
+Qualifications: MBBS, MS, MCh (NIMHANS) Clinical Fellowship in Skull base Surgery
+City: Delhi
+Clinic: Apollo Hospitals Indraprastha, Delhi
+
+Digital Consultation:
+  Price: ₹1500
+  Availability: Available tomorrow at 02:30 AM
+Profile URL: https://www.apollo247.com/doctors/dr-gaurav-tyagi-1a258739-30f5-47f5-950f-44e2ceb87014?source=Listing_Page
+
+
+Doctor #9
+==================================================
+Name: Prof. Dr. Anil Pande
+Specialty: Neurosurgeon
+Experience: 25 Years
+Qualifications: MBBS, DNB (NeuroSurg.), MNAMS
+City: Chennai
+Clinic: Apollo Speciality Hospitals OMR, Chennai
+
+Digital Consultation:
+  Price: ₹2000
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-prof-dr-anil-pande-18a5c69a-eb23-4c8c-8c30-45a023cda4b1?source=Listing_Page
+
+
+Doctor #10
+==================================================
+Name: Dr. Dhanunjaya Rao Ginjupally
+Specialty: Neurosurgeon
+Experience: 11 Years
+Qualifications: M.B.,B.S., M.S.(Gen. Surg), M.Ch.(Neurosurgery) IFAANS Fellow, Movement disorders and Functional Neurosurgery/Neuro-oncology.  University of Kentucky college of Medicine, USA.
+City: Hyderabad
+Clinic: Apollo Hospitals Jubilee Hills, Hyderabad
+
+Digital Consultation:
+  Price: ₹800
+  Availability: Available in 10 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-dhanunjaya-rao-ginjupally-43c9d6b5-3359-48da-af68-84dd80943e6a?source=Listing_Page
+
+
+Doctor #11
+==================================================
+Name: Dr. Sunit Mediratta
+Specialty: Neurosurgeon
+Experience: 20 Years
+Qualifications: MBBS, MS, MCh, DNB, MNAMS
+City: Delhi
+Clinic: Apollo Hospitals Indraprastha, Delhi
+
+Digital Consultation:
+  Price: ₹2000
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-sunit-mediratta-5c7d9d85-807f-4980-a53f-211a4c0baa81?source=Listing_Page
+
+
+Doctor #12
+==================================================
+Name: Dr. Deepak A N
+Specialty: Neurosurgeon
+Experience: 10 Years
+Qualifications: MBBS, MS (General Surgery, M.Ch (Neurosurgery)
+City: Bengaluru
+Clinic: Apollo Medical Center, Marathahalli, Bengaluru
+
+Clinic Visit:
+  Price: ₹1000
+  Availability: Available in 10 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-deepak-a-n-98b50a05-eb66-4dcd-9a59-a2d4af28c983?source=Listing_Page
+
+
+Doctor #13
+==================================================
+Name: Dr. Bharat Subramanya
+Specialty: Neurosurgeon
+Experience: 8 Years
+Qualifications: MBBS, DrNB Neurosurgery (D6Y,NBEMS), Fellowship Park clinic Kolkata
+City: Bengaluru
+Clinic: Apollo Clinic, Electronic City, Bengaluru
+
+Digital Consultation:
+  Price: ₹1050
+  Availability: Available in 15 minutes
+
+Clinic Visit:
+  Price: ₹1050
+  Availability: Available in 2 days
+Profile URL: https://www.apollo247.com/doctors/dr-bharat-subramanya-16cbce91-5813-4d67-92ba-174b426cb666?source=Listing_Page
+
+
+Doctor #14
+==================================================
+Name: Dr. Sanatan Satapathy
+Specialty: Neurosurgeon
+Experience: 10 Years
+Qualifications: MBBS , MS (General surgery) , MCH (Neurosurgery)
+City: Bhubaneswar
+Clinic: Dr Sanatan Satapathy, Bhubaneswar
+
+Clinic Visit:
+  Price: ₹500
+  Availability: Available in 15 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-sanatan-satapathy-20eb06f2-2cc7-47e8-928d-5c94b0af06f5?source=Listing_Page
+
+
+Doctor #15
+==================================================
+Name: Dr Abhay Sikaria
+Specialty: Neurosurgeon
+Experience: 7 Years
+Qualifications: MBBS, M.S (GENERAL SURGERY), MCH (NEUROSURGERY)
+City: Bengaluru
+Clinic: Apollo Clinic, Koramangala, Bengaluru
+
+Digital Consultation:
+  Price: ₹850
+  Availability: Available in 15 minutes
+
+Clinic Visit:
+  Price: ₹850
+  Availability: Available tomorrow at 10:30 AM
+Profile URL: https://www.apollo247.com/doctors/dr-abhay-sikaria-710873bf-8b1d-405f-9fef-534343e5897c?source=Listing_Page
+
+
+Doctor #16
+==================================================
+Name: Dr Debnath Dwaipayan
+Specialty: Neurosurgeon
+Experience: 8 Years
+Qualifications: MBBS, MS(Gen. Surgery), DrNB (Neurosurgery)
+City: Delhi
+Clinic: Apollo Hospitals Indraprastha, Delhi
+
+Digital Consultation:
+  Price: ₹1000
+  Availability: Available in 25 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-debnath-dwaipayan-8a8f962c-01d8-4434-8781-016188ae69ed?source=Listing_Page
+
+
+Doctor #17
+==================================================
+Name: Dr. Rahul Srinivasan
+Specialty: Neurosurgeon
+Experience: 3 Years
+Qualifications: MBBS, DrNB(Neurosurgery), Post Doctor Fellow (CMC Vellore)
+City: Chennai
+Clinic: Apollo First Med Hospitals P H Road, Chennai
+
+Digital Consultation:
+  Price: ₹1000
+  Availability: Available in 25 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-rahul-srinivasan-75923c29-ecf7-4cc1-90f5-5d8c9d821281?source=Listing_Page
+
+
+Doctor #18
+==================================================
+Name: Dr Kodali Sandhya
+Specialty: Neurosurgeon
+Experience: 6 Years
+Qualifications: MBBS,MS (General Surgery),MCh(Neurosurgery),MBBS , MS General Surgery , ACNS fellow in Cerebrovascular &  Minimal Invasive Neurosurgeon
+City: Hyderabad
+Clinic: Medicover hospital, Hyderabad
+
+Digital Consultation:
+  Price: ₹625
+  Availability: Available in 25 minutes
+
+Clinic Visit:
+  Price: ₹500
+  Availability: Available tomorrow at 03:30 AM
+Profile URL: https://www.apollo247.com/doctors/dr-kodali-sandhya-e9b93492-805e-4601-b9dc-dd7e01336573?source=Listing_Page
+
+
+Doctor #19
+==================================================
+Name: Dr. Abinash Dutta
+Specialty: Neurosurgeon
+Experience: 10 Years
+Qualifications: MBBS, MS - General Surgery, MCh - Neuro Surgery
+City: Bengaluru
+Clinic: NeuroCare Clinic, Bengaluru
+
+Digital Consultation:
+  Price: ₹1500
+  Availability: Available in 25 minutes
+
+Clinic Visit:
+  Price: ₹1200
+  Availability: Available in 35 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-abinash-dutta-5288524f-e838-4057-8f9c-c2e547329cfb?source=Listing_Page
+
+
+Doctor #20
+==================================================
+Name: Dr Ravikiran Vutha
+Specialty: Neurosurgeon
+Experience: 6 Years
+Qualifications: MBBS, MS ( General Surgery), MCH (Neurosurgery)
+City: Mumbai
+Clinic: Apollo Hospitals CBD Belapur, Mumbai
+
+Digital Consultation:
+  Price: ₹2000
+  Availability: Available in 25 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-ravikiran-vutha-2fc568f8-b8f2-492e-bd10-a39496011c46?source=Listing_Page
+
+
+Doctor #21
+==================================================
+Name: Dr. Ramesh R
+Specialty: Neurosurgeon
+Experience: 10 Years
+Qualifications: MBBS, DNB
+City: Bengaluru
+Clinic: Relife Hospital, Bengaluru
+
+Clinic Visit:
+  Price: ₹400
+  Availability: Available in 35 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-ramesh-r-a12a411c-4d7c-44bb-9111-cabe49ea953f?source=Listing_Page
+
+
+Doctor #22
+==================================================
+Name: Dr. K Kartik Revanappa
+Specialty: Neurosurgeon
+Experience: 24 Years
+Qualifications: MBBS, MS - Orthopaedics, MCh - NeuroSurgery
+City: Bengaluru
+Clinic: Kartik's NeuroSpine Clinic, Bengaluru
+
+Clinic Visit:
+  Price: ₹1000
+  Availability: Available in 35 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-k-kartik-revanappa-573f625d-97d2-46b2-9efc-8fba442733e3?source=Listing_Page
+
+
+Doctor #23
+==================================================
+Name: Dr J Kartik Eshwar
+Specialty: Neurosurgeon
+Experience: 8 Years
+Qualifications: MBBS, MS General Surgery, M.Ch Neurosurgery
+City: Tanuku
+Clinic: Radha Krishna Neuro Multispeciality Hospital, Tanuku
+
+Digital Consultation:
+  Price: ₹700
+  Availability: Available in 35 minutes
+Profile URL: https://www.apollo247.com/doctors/dr-j-kartik-eshwar-01738ee3-5980-4f0e-9a54-d4efffa11f42?source=Listing_Page
+
+
+Doctor #24
+==================================================
+Name: Dr. Uddalak Chakraborty
+Specialty: Neurologist
+Experience: 8 Years
+Qualifications: MBBS,MD(GENL. MED.),DM(NEUROLOGY)
+City: Kolkata
+Clinic: VDC Clinic, Kolkata
+
+Digital Consultation:
+  Price: ₹1500
+  Availability: Available in 55 minutes
+
+Clinic Visit:
+  Price: ₹1000
+  Availability: Available in 3 days
+Profile URL: https://www.apollo247.com/doctors/dr-uddalak-chakraborty-b31803fc-4d4b-44fe-937e-8169a3b8afb7?source=Listing_Page
+
+
+Doctor #25
+==================================================
+Name: Dr. Binod Kumar Singhania
+Specialty: Neurosurgeon
+Experience: 35 Years
+Qualifications: MBBS , MS (Gen.Surg.), M.Ch (Neurosurg), Fellow Spine Surg.  APPOINTMENT WILL BE ON BASIS OF FIRST COME FIRST SERVE.
+City: Kolkata
+Clinic: Apollo Multispeciality Hospitals , Kolkata, Kolkata
+
+Digital Consultation:
+  Price: ₹2000
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-binod-kumar-singhania-46aa5f70-d692-4ab3-b98f-850b2f537278?source=Listing_Page
+
+
+Doctor #26
+==================================================
+Name: Dr. Shameem Ahmed
+Specialty: Neurosurgeon
+Experience: 24 Years
+Qualifications: MCH (Neuro Surgery), MS(General Surgery), Brain and Spine Surgeon, MBBS
+City: Guwahati
+Clinic: Apollo Hospitals G S Road, Guwahati
+
+Digital Consultation:
+  Price: ₹1000
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-shameem-ahmed-8986fe95-b77c-480a-b21d-484cd74c0848?source=Listing_Page
+
+
+Doctor #27
+==================================================
+Name: Dr. Amit Kapoor
+Specialty: Neurosurgeon
+Experience: 18 Years
+Qualifications: D.N.B NeuroSurg.
+City: Delhi
+Clinic: Apollo Hospitals Indraprastha, Delhi
+
+Digital Consultation:
+  Price: ₹1500
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-amit-kapoor-e830cf57-3ac0-4f78-bb72-3f62beb208ed?source=Listing_Page
+
+
+Doctor #28
+==================================================
+Name: Dr. Amit Kapoor
+Specialty: Neurosurgeon
+Experience: 18 Years
+Qualifications: D.N.B NeuroSurg.
+City: Noida
+Clinic: Apollo Hospitals Sector 26, Noida
+
+Digital Consultation:
+  Price: ₹1500
+  Availability: Available at 12:50 PM
+Profile URL: https://www.apollo247.com/doctors/dr-amit-kapoor-271f1b85-dd51-468b-9271-20cb5d387da2?source=Listing_Page
+
+
+Doctor #29
+==================================================
+Name: Dr. Subrat Kumar Soren
+Specialty: Neurosurgeon
+Experience: 2 Years
+Qualifications: MCH NEUROSURGERY
+City: Karimnagar
+Clinic: Apollo Reach Hospitals Railway Station Road, Karimnagar
+
+Digital Consultation:
+  Price: ₹1000
+  Availability: Not specified
+Profile URL: https://www.apollo247.com/doctors/dr-subrat-kumar-soren-320ac0df-8d60-468c-9a1b-4d1c31603155?source=Listing_Page
+
+
+Doctor #30
+==================================================
+Name: Dr. Raj Kumar Pannem
+Specialty: Neurosurgeon
+Experience: 4 Years
+Qualifications: MBBS, MS, MCh
+City: Bengaluru
+Clinic: Apollo Clinic, Koramangala, Bengaluru
+
+Digital Consultation:
+  Price: ₹850
+  Availability: Available at 01:30 PM
+Profile URL: https://www.apollo247.com/doctors/dr-raj-kumar-pannem-9225cffd-afd4-453b-ad59-5998dd40d55d?source=Listing_Page
+
