@@ -1,0 +1,416 @@
+{% extends "main.html" %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f9fafb;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header {
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 1rem 0;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .logo {
+            color: #7c3aed;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .search-container {
+            position: relative;
+            flex: 1;
+            max-width: 36rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.5rem 0.75rem 0.5rem 2.5rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.375rem;
+            outline: none;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #9ca3af;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            border: none;
+            cursor: pointer;
+            font-size: 0.875rem;
+        }
+
+        .btn-primary {
+            background-color: #7c3aed;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #6d28d9;
+        }
+
+        .btn-icon {
+            padding: 0.5rem;
+            background: none;
+            border: none;
+            color: #6b7280;
+            cursor: pointer;
+        }
+
+        .avatar {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            background-color: #e5e7eb;
+        }
+
+        .filters {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            background-color: #f3f4f6;
+            color: #4b5563;
+            font-size: 0.875rem;
+            cursor: pointer;
+        }
+
+        .badge-purple {
+            background-color: #ddd6fe;
+            color: #7c3aed;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            padding: 1.5rem 0;
+        }
+
+        .map-container {
+            position: relative;
+            height: 600px;
+            background-color: #f3f4f6;
+            border-radius: 0.5rem;
+        }
+
+        #map {
+            height: 80vh;
+        }
+
+        .map-search {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: white;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .property-card {
+            background: white;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+        }
+
+        .property-content {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .property-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
+
+        .property-details {
+            flex: 1;
+        }
+
+        .property-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        .property-title {
+            font-weight: 600;
+        }
+
+        .property-address {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .property-features {
+            display: flex;
+            gap: 1rem;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        .property-price {
+            margin-top: 0.5rem;
+        }
+
+        .discount-card {
+            position: relative;
+            height: 200px;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .discount-content {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, rgba(124, 58, 237, 0.8), rgba(124, 58, 237, 0.4));
+            color: white;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">HealthSync AI</a>
+                <div class="search-container">
+                    <i class="lucide-search search-icon"></i>
+                    <input type="text" class="search-input" placeholder="Search hospitals, clinics, diagnostics and etc.">
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-primary">Make a Call</button>
+                    <button class="btn-icon"><i class="lucide-heart"></i></button>
+                    <button class="btn-icon"><i class="lucide-bell"></i></button>
+                    <div class="avatar"></div>
+                </div>
+            </div>
+            
+            <div class="filters">
+                <span class="badge">All</span>
+                <span class="badge">Distance</span>
+                <span class="badge badge-purple">Emergency</span>
+                <span class="badge">Rating</span>
+                <span class="badge">Orthopedics</span>
+                <span class="badge">Cardiology</span>
+                <span class="badge">Pediatrics</span>
+                <span class="badge">Dermatalogist</span>
+                <button class="btn-icon" style="margin-left: auto;">
+                    <i class="lucide-sliders-horizontal"></i> Filters
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+
+        <div class="map-container">
+            <div id="map" class="w-full h-full z-0"></div>
+        </div>
+
+        <div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                {% comment %} <span style="color: #6b7280;">350+ stays in map area</span> {% endcomment %}
+                <div style="display: flex; gap: 1rem;">
+                    <button class="btn">
+                        <i class="lucide-calendar"></i>
+                        21 Feb 2025 - 28 Feb 2025
+                    </button>
+                </div>
+            </div>
+
+            <div class="discount-card">
+                <div class="discount-content">
+                    <h3 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem;">Priority Health Check</h3>
+                    <p style="font-size: 2.25rem; font-weight: bold; margin-bottom: 0.5rem;">Book Your Appointment Now</p>
+                    <p style="margin-bottom: 1rem;">Get a free initial consultation</p>
+                    <button class="btn btn-primary">Book now</button>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="property-content">
+                    <img src="/api/placeholder/120/120" alt="Property" class="property-image">
+                    <div class="property-details">
+                        <div class="property-header">
+                            <div>
+                                <span class="badge">4.7</span>
+                                <span class="property-title">Sunset Medical Center</span>
+                            </div>
+                            <button class="btn-icon"><i class="lucide-heart"></i></button>
+                        </div>
+                        <p class="property-address">2456 Royal Ln. Mesa,Hyderabad</p>
+                        <div class="property-features">
+                        </div>
+                        <div class="property-price">
+                            <span style="font-weight: 600; font-size: 1.125rem;">Price</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script>
+
+            var map = L.map('map')
+
+            var openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            });
+            
+            var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+                maxZoom: 20,
+                subdomains: ['mt0','mt1','mt2','mt3']
+            });
+            
+            var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
+                maxZoom: 20,
+                subdomains: ['mt0','mt1','mt2','mt3']
+            });
+            
+            var googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+                maxZoom: 20,
+                subdomains: ['mt0','mt1','mt2','mt3']
+            });
+            
+            var googleTerrain = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
+                maxZoom: 20,
+                subdomains: ['mt0','mt1','mt2','mt3']
+            });
+            
+            openStreetMap.addTo(map);
+            
+            var baseLayers = {
+                "OpenStreetMap": openStreetMap,
+                "Google Streets": googleStreets,
+                "Google Hybrid": googleHybrid,
+                "Google Satellite": googleSat,
+                "Google Terrain": googleTerrain
+            };
+            
+            L.control.layers(baseLayers).addTo(map);
+            
+            L.marker([51.5, -0.09]).addTo(map)
+                .bindPopup('*')
+                .openPopup();
+            
+            var currentLayerIndex = 0;
+            var layerInstances = Object.values(baseLayers);
+            
+            function changeLayer() {
+                map.removeLayer(layerInstances[currentLayerIndex]);
+                
+                currentLayerIndex = (currentLayerIndex + 1) % layerInstances.length;
+                
+                layerInstances[currentLayerIndex].addTo(map);
+            }
+
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(
+                        function(position) {
+                            const latitude = position.coords.latitude;
+                            const longitude = position.coords.longitude;
+                            
+                            map.setView([latitude, longitude], 13);
+                            
+                            L.marker([latitude, longitude])
+                                .addTo(map)
+                                .bindPopup('Your Location')
+                                .openPopup();
+            
+                            sendLocationToBackend(latitude, longitude);
+                        },
+                        function(error) {
+                            console.error("Error getting location:", error);
+                            map.setView([51.505, -0.09], 13);
+                        }
+                    );
+                } else {
+                    console.error("Geolocation is not supported by this browser.");
+                    map.setView([51.505, -0.09], 13);
+                }
+            }
+        
+            document.addEventListener('DOMContentLoaded', getLocation);
+    </script>
+</body>
+</html>
+{% endblock content %}

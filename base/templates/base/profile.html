@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8fafc;
+            min-height: 100vh;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 64px;
+            background-color: #0f172a;
+            color: white;
+            padding: 24px 0;
+        }
+
+        .sidebar-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .logo {
+            width: 32px;
+            height: 32px;
+            background-color: #9333ea;
+            border-radius: 50%;
+        }
+
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .nav-button {
+            width: 40px;
+            height: 40px;
+            border: none;
+            background: transparent;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+
+        .nav-button:hover {
+            background-color: #1e293b;
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding-left: 64px;
+        }
+
+        /* Header styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 32px;
+            background-color: white;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .search-input {
+            padding: 8px 16px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .icon-button {
+            padding: 8px;
+            border: none;
+            background: transparent;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .icon-button:hover {
+            background-color: #f1f5f9;
+        }
+
+        /* Grid layout */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            padding: 32px;
+        }
+
+        @media (min-width: 1024px) {
+            .dashboard-grid {
+                grid-template-columns: 2fr 1fr;
+            }
+        }
+
+        /* Course section styles */
+        .courses-section {
+            margin-bottom: 32px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .see-all {
+            color: #64748b;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .see-all:hover {
+            color: #0f172a;
+        }
+
+        /* Tabs styles */
+        .tabs {
+            margin-bottom: 32px;
+        }
+
+        .tabs-list {
+            display: flex;
+            gap: 16px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+
+        .tab {
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 14px;
+            color: #64748b;
+            border-radius: 6px;
+        }
+
+        .tab.active {
+            color: #0f172a;
+            background-color: #f1f5f9;
+        }
+
+        /* Course card styles */
+        .course-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .course-card-header {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .course-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .course-info h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .course-description {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .course-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .course-tags {
+            display: flex;
+            gap: 8px;
+        }
+
+        .tag {
+            padding: 4px 12px;
+            background-color: #f1f5f9;
+            border-radius: 16px;
+            font-size: 12px;
+        }
+
+        /* Calendar card styles */
+        .calendar-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Schedule styles */
+        .schedule-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .schedule-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .schedule-time {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .schedule-title {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <div class="logo"></div>
+            <nav class="nav-buttons">
+                <button class="nav-button">🏠</button>
+                <button class="nav-button">📅</button>
+                <button class="nav-button">📊</button>
+                <button class="nav-button">📄</button>
+                <button class="nav-button">💬</button>
+            </nav>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="header">
+            <div class="header-title">Hi, User 👋</div>
+            <div class="header-actions">
+                <input type="search" placeholder="Search..." class="search-input">
+                <button class="icon-button">🔔</button>
+                <button class="icon-button">⚙️</button>
+            </div>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="courses-section">
+                <div class="section-header">
+                    <h2 class="section-title">My Profile</h2>
+                    <a href="#" class="see-all">See all →</a>
+                </div>
+
+                <div class="tabs">
+                    <div class="tabs-list">
+                        <button class="tab active">All</button>
+                        <button class="tab">Active</button>
+                        <button class="tab">Completed</button>
+                    </div>
+                </div>
+
+                <div class="course-card" style="background-color: #f0fdf4;">
+                    <div class="course-card-header">
+                        <img src="/api/placeholder/80/80" alt="Hospital Image" class="course-image">
+                        <div class="course-info">
+                            <h3>Hospital Details</h3>
+                            <p class="course-description">Description</p>
+                        </div>
+                    </div>
+                    <div class="course-meta">
+                        <div class="course-tags">
+                            <span class="tag">Blood Test</span>
+                            <span class="tag">Diabetic Test</span>
+                        </div>
+                        <div>⭐ 4.0 (33,098)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-content">
+                <div class="calendar-card">
+                    <div style="text-align: center;">Calendar Widget</div>
+                </div>
+
+                <div class="schedule-card">
+                    <h3 class="section-title" style="margin-bottom: 16px;">Today's Schedule</h3>
+                    <div class="schedule-item">
+                        <span class="schedule-time">09:00 AM</span>
+                        <span class="schedule-title">Blood Test</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">11:00 AM</span>
+                        <span class="schedule-title">Diabetic Test</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
